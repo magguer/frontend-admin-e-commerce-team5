@@ -29,7 +29,7 @@ function Dashboard() {
     getOrders();
   }, []);
 
-  const lastOrders = orders.slice(0, 10);
+  const lastOrders = orders.slice(0, 9);
 
   for (let order of lastOrders) {
     montlySales += order.totalPrice;

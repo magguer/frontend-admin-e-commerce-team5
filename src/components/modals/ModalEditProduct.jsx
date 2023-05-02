@@ -46,7 +46,6 @@ function ModalEditProduct({ handleCloseModalProduct, product }) {
   /*   PATCH PRODUCT */
   const handleEditProduct = async () => {
     const formData = new FormData();
-
     formData.append("brand", brandName);
     formData.append("model", model);
     formData.append("subtitle", subtitle);
